@@ -1,0 +1,59 @@
+body{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.background{
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+}
+.product{
+    padding: 0px 50px;
+}
+.buy-now-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(black,rgb(82, 82, 82));
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.line{
+    background-image: linear-gradient(gray,lightgray);
+}
+.line:active{
+    background-image: linear-gradient(90deg,orange,yellow);
+}
+#smartphone{
+    margin-top: 50px;
+}
+.item{
+    margin-top: 50px;
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.card-footer{
+    border: none;
+}
+#laptop{
+    margin-top: 50px;
+}
+#categories{
+    margin-top: 50px;
+}
+.item{
+    padding: 10px 20px;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
